@@ -6,14 +6,15 @@
   "author": "grantsru",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "parcel": "^1.12.4",
-    "typescript": "^3.9.7"
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
   },
   "dependencies": {
-    "excalibur": "^0.24.3"
+    "phaser": "^3.55.2"
   }
 }
